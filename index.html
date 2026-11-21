@@ -780,7 +780,6 @@
       <h4>Hubungi</h4>
       <ul>
         <li><a target="_blank" rel="noopener" href="https://instagram.com/tintakatamu">Instagram @tintakatamu</a></li>
-        <li><a target="_blank" rel="noopener" href="https://wa.me/6282252990791">WhatsApp 0822-5299-0791</a></li>
         <li>Madiun, Jawa Timur</li>
       </ul>
     </div>
@@ -834,7 +833,6 @@
       io.unobserve(el);
       el.classList.add('in');
       var d=parseFloat(el.style.getPropertyValue('--d'))||0;
-      /* setelah animasi masuk selesai, lepas kelas supaya efek hover bekerja */
       setTimeout(function(){el.classList.remove('reveal','in');el.style.removeProperty('--d');},(d+0.9)*1000);
       el.querySelectorAll('[data-count]').forEach(count);
     });
